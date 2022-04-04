@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,400;0,500;0,700;1,300&family=Nunito:wght@700&display=swap');
+
+
+:root{
+    --orange:#fff780;
+    --black:#130f40;
+    --light-color:#666;
+    --box-shadow:0 .5 1rem rgba(0,0,0,.1);
+    --border:.2rem solid rgba(0,0,0,.1);
+    --outline:1rem solid rgba(0,0,0,.1);
+    --outline-hover:2rem solid var(--black);
+}
+
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline:none; 
+    border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 63%;
+    overflow-x: hidden;
+    scroll-behavior:  smooth;
+    scroll-padding-top:7rem;
+}
+body{
+    background:#eee;
+}
+section{
+    padding: 2rem 9%;
+}
+.btn {
+    margin-top:1rem ;
+    display: inline-block;
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    border: .2rem solid var(--black);
+    color: var(--black);
+    cursor: pointer;
+}
+ .btn:hover{
+    background: #8c62b6;
+    color: rgb(255, 249, 249);
+    
+}
+.header{
+    position: fixed;
+    top:0; left:0; right:0;
+    z-index:1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2rem 9%;
+    background:  rgb(120, 143, 151);
+    box-shadow: var(--box-shadow);
+}
+
+.header .logo {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color:var(--black);
+}
+.header .logo i{
+    color: #66FFFF;
+}
+.header .navbar a{
+    font-size: 1.7rem;
+    margin: 0 1rem;
+    color: #66FFFF
+}
+.header .navbar a:hover{
+    color: #146580;
+}
+
+.header .icon div{
+    background: #eee;
+    color : var(--black);
+    font-size: 2rem;
+    display: contents;
+}
+.header .icon div i{
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: .5rem;
+    background: #eee;
+    color : var(--black);
+    font-size: 2rem;
+    margin-left: .3rem;
+    cursor: pointer;
+    text-align: center;
+}
+.header .icon div i:hover{
+    background: #9966CC;
+    clear: #fff;
+}
+#menu{
+    display: none;
+}
+.header .search-F{
+    
+    position: absolute;
+    top:110%;
+    right:-110%;
+    width: 50rem;
+    height: 4rem;
+    background: #fff;
+    border-radius:40px;
+    overflow: hidden;
+    display: flex;
+    align-items:center;
+    box-shadow:var(--box-shadow);
+}
+.header .search-F.active{
+    right:2rem;
+    transition: .4s linear;
+}
+.header .search-F input{
+    height: 100%;
+    width:100%;
+    background: none;
+    font-size: 1.5rem;
+    color: var(--black);
+    padding: 0 1.5rem;
+    
+}
+.header .search-F label{
+    font-size: 2.2rem;
+    padding-right: 2.2rem;
+    color: var(--black);
+    cursor: pointer;
+}
+.header .search-F label:hover{
+    color: aqua;
+}
+.header .login-F{
+   
+    position: absolute;
+    top: 110%; 
+    right: -110%;
+    width: 30rem;
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+    border-radius: .5rem;
+    background: #fff;
+    text-align: center;
+}
+.header .login-F.active{
+     right:2rem;
+     transition: .4s linear;
+}
+.header .login-F h3{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: var(--black);
+}
+.header .login-F .box{
+    width: 100%;
+    margin: .7rem 0;
+    background: #eee;
+    border-radius:40px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: var(--black);
+    text-transform:none;
+}
+.header .login-F p{
+    font-size: 1.2rem;
+    padding: .5rem 0;
+    color: var(--light-color);
+}
+.header .login-F p a{
+    color:#9966CC;
+    text-decoration: underline;
+}
+.home{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    background: url(home.png) no-repeat;
+    background-position: center;
+    background-size:cover ;
+    padding-top: 25rem;
+    padding-bottom: 20rem;
+}
+.home .content{
+    text-align: center;
+    width: 60rem;
+}
+.home .content h3{
+    color: var(--black);
+    font-size: 3rem;
+}
+.home .content h3{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+}
+.home .content h3 samp{
+    color: rgb(74, 82, 82);
+}
+.home .content  p{
+    color: rgb(227, 210, 239);
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ui*/
+
+@media (max-width:991px){
+    html{
+        font-size: 55%; 
+    }
+    .header{
+        padding: 2rem;
+    }
+    section{
+        padding: 2rem;
+    }
+}
+@media (max-width:768px){
+
+    #menu {
+        display: inline-block;   
+        color: #9966CC; 
+    }
+    .header .search-F{
+        width: 90%;
+    }
+.header .navbar{
+  position: absolute;
+  top:110%;
+  right:-110%;
+  width: 30rem;
+  box-shadow: var(--box-shadow);
+  border-radius: .5rem;
+  background: #fff
+}
+.header .navbar .active{
+   right: 2rem;
+   transition: .4s linear;
+}
+
+.header .navbar a{
+    font-size: 2rem;
+    margin: 2rem 2.5rem;
+    display: block;
+}
+}
+
+@media (max-width:450px){
+
+
+    html{
+        font-size: 45%;
+        
+    }
+}
