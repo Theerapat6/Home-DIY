@@ -199,11 +199,12 @@ clip-path: polygon(100% 0, 93% 50%,100% 99%, 0% 100%,7% 50%,0% 0%);
     display: flex;
     align-items:center ;
     justify-content: center;
-    background: url(home.png) no-repeat;
+    background: url(img/home.png) no-repeat;
     background-position: center;
     background-size:cover ;
     padding-top: 25rem;
     padding-bottom: 20rem;
+    opacity: 80%;
 }
 .home .content{
     text-align: center;
