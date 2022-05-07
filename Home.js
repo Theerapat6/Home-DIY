@@ -18,7 +18,7 @@ document.querySelector('#login').onclick =() =>{
 
 let navbar = document.querySelector('.navbar');
 
-document.querySelector('#menu').onclick =() =>{
+document.querySelector('#menu-btn').onclick = () =>{
     navbar.classList.toggle('active');
     searchF.classList.remove('active');
     loginF.classList.remove('active');

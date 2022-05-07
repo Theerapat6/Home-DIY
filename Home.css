@@ -32,7 +32,9 @@ html{
 }
 body{
     background:#eee;
+    
 }
+
 section{
     padding: 2rem 9%;
 }
@@ -95,6 +97,7 @@ clip-path: polygon(100% 0, 93% 50%,100% 99%, 0% 100%,7% 50%,0% 0%);
     color: #146580;
 }
 
+
 .header .icon div{
     background: #eee;
     color : var(--black);
@@ -117,9 +120,11 @@ clip-path: polygon(100% 0, 93% 50%,100% 99%, 0% 100%,7% 50%,0% 0%);
     background: #9966CC;
     clear: #fff;
 }
-#menu{
+#menu-btn{
     display: none;
 }
+
+
 .header .search-F{
     position: absolute;
     top:110%;
@@ -195,22 +200,23 @@ clip-path: polygon(100% 0, 93% 50%,100% 99%, 0% 100%,7% 50%,0% 0%);
     color:#9966CC;
     text-decoration: underline;
 }
-.home{
+
+
+.Home{
     display: flex;
     align-items:center ;
     justify-content: center;
-    background: url(img/home.png) no-repeat;
+    background: url(home.png) no-repeat;
     background-position: center;
     background-size:cover ;
     padding-top: 25rem;
     padding-bottom: 20rem;
-    opacity: 80%;
 }
-.home .content{
+.Home .content{
     text-align: center;
     width: 60rem;
 }
-.home .content h3{
+.Home .content h3{
     color: var(--black);
     font-size: 3rem;
 }
@@ -218,25 +224,25 @@ clip-path: polygon(100% 0, 93% 50%,100% 99%, 0% 100%,7% 50%,0% 0%);
     color: rgb(255, 255, 255);
     font-size: 5rem;
 }
-.home .content h3 samp{
+.Home .content h3 samp{
     color: rgb(74, 82, 82);
 }
-.home .content  p{
+.Home .content  p{
     color: rgb(227, 210, 239);
     font-size: 2.5rem;
 }
 
 
 
-.features .box-container{
+.Style .box-container{
+    
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
     gap: 1.5rem;
-    
    
 }
 
-.features .box-container .box{
+.Style .box-container .box{
     padding: 1.5rem ;
     padding-left: 1px;
     padding-right: 1px;
@@ -247,7 +253,7 @@ clip-path: polygon(100% 0, 93% 50%,100% 99%, 0% 100%,7% 50%,0% 0%);
     text-align: center;
 }
 
-.features .box-container .box .img{
+.Style .box-container .box .img{
     display: block;
     margin: auto;
     border-radius: 9px;
@@ -255,23 +261,29 @@ clip-path: polygon(100% 0, 93% 50%,100% 99%, 0% 100%,7% 50%,0% 0%);
     height: 70%;
 }
 
-.features .box-container .box h3{
+.Style .box-container .box h3{
     font-size: 20px;
+  
     color: #1f4552;
     text-align: center;
 }
 
 
+ body{
+    position: relative;
+    height: 65%;
+ }
 
 .products .products-sli{
     padding: 1rem;
+    
 }
 .products .products-sli:first-child{
     padding: 2rem;
+    
 }
 .products .products-sli .box{
     background: #fff;
-    display: block;
     border-radius: .5rem;
     text-align: center;
     padding: 3rem 2rem;
@@ -287,8 +299,12 @@ clip-path: polygon(100% 0, 93% 50%,100% 99%, 0% 100%,7% 50%,0% 0%);
 .products .products-sli .box img{
    height: 30rem;
 }
+.products h3{
+    font-size: .5rem;
+}
 .products .products-sli .box h3{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    
     color: var(--black);
 }
 .products .products-sli .box .price{
@@ -347,7 +363,7 @@ clip-path: polygon(100% 0, 93% 50%,100% 99%, 0% 100%,7% 50%,0% 0%);
 }
 @media (max-width:768px){
 
-    #menu {
+    #menu-btn{
         display: inline-block;   
         color: #9966CC; 
     }
