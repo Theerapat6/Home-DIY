@@ -2,7 +2,6 @@ let searchF = document.querySelector('.search-F');
 
 document.querySelector('#search').onclick =() =>{
     searchF.classList.toggle('active');
-    
     loginF.classList.remove('active');
     navbar.classList.remove('active');
 }

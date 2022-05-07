@@ -98,6 +98,7 @@ clip-path: polygon(100% 0, 93% 50%,100% 99%, 0% 100%,7% 50%,0% 0%);
 }
 
 
+
 .header .icon div{
     background: #eee;
     color : var(--black);
@@ -123,6 +124,8 @@ clip-path: polygon(100% 0, 93% 50%,100% 99%, 0% 100%,7% 50%,0% 0%);
 #menu-btn{
     display: none;
 }
+
+
 
 
 .header .search-F{
@@ -206,7 +209,7 @@ clip-path: polygon(100% 0, 93% 50%,100% 99%, 0% 100%,7% 50%,0% 0%);
     display: flex;
     align-items:center ;
     justify-content: center;
-    background: url(home.png) no-repeat;
+    background: url(img/home.png) no-repeat;
     background-position: center;
     background-size:cover ;
     padding-top: 25rem;
@@ -300,7 +303,7 @@ clip-path: polygon(100% 0, 93% 50%,100% 99%, 0% 100%,7% 50%,0% 0%);
    height: 30rem;
 }
 .products h3{
-    font-size: .5rem;
+    font-size: 2.5rem;
 }
 .products .products-sli .box h3{
     font-size: 1.2rem;
