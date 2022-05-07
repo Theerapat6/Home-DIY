@@ -3,7 +3,7 @@
 
 :root{
     --orange:#fff780;
-    --black:#4739c5;
+    --black:#51bae7;
     --light-color:#666;
     --box-shadow:0 .5 1rem rgba(0,0,0,.1);
     --border:.2rem solid rgba(0,0,0,.1);
@@ -237,12 +237,11 @@ clip-path: polygon(100% 0, 93% 50%,100% 99%, 0% 100%,7% 50%,0% 0%);
 
 
 
-.Style .box-container{
+ .Style .box-container{
     
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
     gap: 1.5rem;
-   
 }
 
 .Style .box-container .box{
@@ -264,7 +263,7 @@ clip-path: polygon(100% 0, 93% 50%,100% 99%, 0% 100%,7% 50%,0% 0%);
     height: 70%;
 }
 
-.Style .box-container .box h3{
+ .Style .box-container .box h3{
     font-size: 20px;
   
     color: #1f4552;
@@ -274,9 +273,9 @@ clip-path: polygon(100% 0, 93% 50%,100% 99%, 0% 100%,7% 50%,0% 0%);
 
  body{
     position: relative;
-    height: 65%;
+    height: 70%;
  }
-
+ 
 .products .products-sli{
     padding: 1rem;
     
@@ -304,9 +303,10 @@ clip-path: polygon(100% 0, 93% 50%,100% 99%, 0% 100%,7% 50%,0% 0%);
 }
 .products h3{
     font-size: 2.5rem;
+  
 }
 .products .products-sli .box h3{
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     
     color: var(--black);
 }
