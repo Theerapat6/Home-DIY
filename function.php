@@ -16,7 +16,7 @@
     }
 
     //Redirect to login
-    header("Location: login.php");
+    header("Location: Homediy.php");
     die;
 
 ?>
