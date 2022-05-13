@@ -28,7 +28,7 @@
               $_SESSION['user_id'] = $user_data['user_id'];
               echo "<script>alert('Login successfully!')</script>";
 
-              header('Location: index.php');
+              header('Location: user_interface.php');
               die;
             }else
             {

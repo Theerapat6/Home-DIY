@@ -45,7 +45,6 @@
 
 </header> 
 
-
 <section class="Home" id="Home">
 <div class="content">
     <h3>welcome <samp>to</samp> DIY</h3>
@@ -80,8 +79,6 @@
      </div>
     </section>
 
-
-    
      <section class="Products" id="products">
     <body>   
         <h1 class="heading">Pro<span>duct</span></h1>
@@ -394,7 +391,7 @@
 
      <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
-    <script src="js/Home.js"></script>
+    <script src="js/user_person.js"></script>
 </body>
 
 </html>
