@@ -17,7 +17,7 @@
 
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="/css/index_style.css">
 </head>
 
 
@@ -46,16 +46,7 @@
       <label for="search-box" class="bx bx-search"></label>
   </form>
   
- 
-  
-<from action="" method="POST" class="login-F">
-    <h3>Login now</h3>
-    <input type="email" placeholder="your email" name="user_email" class="box">
-    <input type="password" placeholder="your password" name="user_pass" class="box">
-    <p>forget your password <a href="#">click here</a></p>
-    <p>don't have an account <a href="#">create now</a></p>
-    <input type="submit"  class="btn" value="login now" >
-</from>
+    <a href="login.php">Login</a>
 
 </header> 
 
