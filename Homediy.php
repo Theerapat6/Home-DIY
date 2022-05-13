@@ -1,23 +1,10 @@
-<?php
-
-    session_start();
-    $_SESSION;
-    include("config.php");
-
-    if(isset($_POST['submit'])){
-        $username = $_POST['username'];
-    }
-?>
-
-
-<!DOCTYPE html>
 <html>
     <title>Home diy</title>
 <head>
 
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="index_style.css">
+    <link rel="stylesheet" href="Home.css">
 </head>
 
 
@@ -30,23 +17,33 @@
       <a href="#Home">Home</a>
       <a href="#Style">Style</a>
       <a href="#products">Products</a> 
-      <a href="#Service">Service</a>
       <a href="#contact">contact</a>
   </nav>
 
   <div class="icon">
-       <div  id="menu-btn"><i class='bx bx-menu'></i></div>
+      
        <div  id="search"><i class='bx bx-search'></i></div>
        <div  id="shop"><i class='bx bx-cart'></i></i></i></div>
-       <div  id="login"><i class='bx bxs-user'></i></div>
+       <div  id="login"><i class='bx bxs-user' ></i></div>
   </div>
     
   <form action="" class="search-F">
       <input type="=search" id="search-box" placeholder="search...">
       <label for="search-box" class="bx bx-search"></label>
   </form>
-
+  
+ 
+  
+<from action="" class="login-F">
+    <h3>Login now</h3>
+    <input type="email" placeholder="your email" class="box">
+    <input type="password" placeholder="your password" class="box">
+    <p>forget your password <a href="#">click here</a></p>
+    <p>don't have an account <a href="#">create now</a></p>
+    <input type="submit"  class="btn" value="login now" >
+</from>
 </header> 
+
 
 <section class="Home" id="Home">
 <div class="content">
@@ -382,11 +379,9 @@
             <div class="box">
                 <h3>quick links</h3>
                 <a href="#Home" class="links"> <i class='bx bx-chevrons-right'></i> home </a>
-                <a href="#Style" class="links"> <i class='bx bx-chevrons-right'></i> features </a>
+                <a href="#Style" class="links"> <i class='bx bx-chevrons-right'></i> Style </a>
                 <a href="#products" class="links"> <i class='bx bx-chevrons-right'></i> products </a>
-                <a href="#Service" class="links"> <i class='bx bx-chevrons-right'></i> Service </a>
-                <a href="#contact" class="links"> <i class='bx bx-chevrons-right'></i> contact </a>
-               
+                <a href="#contact" class="links"> <i class='bx bx-chevrons-right'></i> contact </a> 
             </div>
     
     
