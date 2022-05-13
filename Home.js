@@ -9,10 +9,8 @@ document.querySelector('#search').onclick =() =>{
 let loginF = document.querySelector('.login-F');
 
 document.querySelector('#login').onclick =() =>{
-    loginF.classList.toggle('active');
-    searchF.classList.remove('active');
     
-    navbar.classList.remove('active');
+    window.location.assign("http://localhost/home-diy-test/login.php");
 }
 
 let navbar = document.querySelector('.navbar');

@@ -4,10 +4,7 @@
     include('config.php');
     include('function.php');
 
-    $user_data = check_login($con)
-
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -18,7 +15,7 @@
     <title>Register</title>
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="/css/login_style.css">
+    <link rel="stylesheet" href="login_style.css">
 
 </head>
 <body>
