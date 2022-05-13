@@ -32,16 +32,7 @@
       <label for="search-box" class="bx bx-search"></label>
   </form>
   
- 
-  
-<from action="" class="login-F">
-    <h3>Login now</h3>
-    <input type="email" placeholder="your email" class="box">
-    <input type="password" placeholder="your password" class="box">
-    <p>forget your password <a href="#">click here</a></p>
-    <p>don't have an account <a href="#">create now</a></p>
-    <input type="submit"  class="btn" value="login now" >
-</from>
+
 </header> 
 
 

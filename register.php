@@ -1,10 +1,10 @@
 <?php
 
-use LDAP\Result;
-
     session_start();
     include('config.php');
     include('function.php');
+
+    $msg = '';
 
     if($_SERVER['REQUEST_METHOD'] == "POST")
     {
@@ -18,22 +18,24 @@ use LDAP\Result;
         
         //save to data base
         $query = "INSERT INTO users (user_id,user_email,user_pass) VALUES ('$user_id','$user_email','$user_pass')";
-        $query2 = "SELECT * FROM users WHERE user_id = '$user_id' OR user_email = '$user_email'";
+        $query2 = "SELECT * FROM users WHERE user_email = '$user_email' OR user_id = '$user_id'";
 
         $result_check = mysqli_query($conn, $query2);
-        if(!$result_check)
+        $user_data = mysqli_fetch_assoc($result_check);
+        
+        if(isset($user_data['user_email']) != $user_email)
         {
           if($user_pass == $user_con)
           {
             mysqli_query($conn, $query);
-            echo "<scripts>alert('Successfully register! You can')</scripts>";
+            echo "<script>alert('Successfully register! You can')</script>";
           }else
           {
             $msg = 'Password is not equal!';
           }          
         }else
         {
-          echo "<scripts>alert('Already email or id')</scripts>";
+          echo "<script>alert('Already email or id')</script>";
         }
         
       }
@@ -83,10 +85,11 @@ use LDAP\Result;
             <span></span>
             <label>Confirm password</label>
           </div>
+          <p><?php echo $msg?></p>
           
-          <input type="submit" value="Login">
+          <input type="submit" value="Register">
           <div class="signup_link">
-            <a href="register.php">Signup</a>
+            <a href="login.php">Login now</a>
           </div>
         </form>
       </div>
