@@ -21,22 +21,34 @@
 <body>
 
     <div class="center">
-        <h1>Login</h1>
+        <h1>Register</h1>
 
         <form method="post">
 
           <div class="txt_field">
-            <input type="text" name="user_id">
+            <input type="text" required>
             <span></span>
-            <label>Username or Email</label>
+            <label>Username</label>
           </div>
 
           <div class="txt_field">
-            <input type="password" name="user_pass">
+            <input type="text" required>
+            <span></span>
+            <label>Email</label>
+          </div>
+
+          <div class="txt_field">
+            <input type="password" required>
             <span></span>
             <label>Password</label>
           </div>
 
+          <div class="txt_field">
+            <input type="password" required>
+            <span></span>
+            <label>Confirm password</label>
+          </div>
+          
           <input type="submit" value="Login">
           <div class="signup_link">
             <a href="register.php">Signup</a>

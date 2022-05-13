@@ -168,35 +168,35 @@
             <div class="swiper-wrapper">
                   
                 <div class="swiper-slide box">
-                    <img src="GIA1.webp" alt="">
+                    <img src="img/GIA1.webp" alt="">
                     <h3>อิฐมอญ GIANT KINGKONG </h3>
                     <p class="price">รุ่น ตัดมือ ขนาดต่อก้อน (ก x ล) 6 x 14 ซม. ความหนาอิฐ 3 ซม.(แพ็ก 100 ก้อน) สีแดง</p>
                      <a href="#" class="btn">129$</a>
                 </div>
               
                 <div class=" swiper-slide box">
-                    <img src="GIA2.webp" alt="">
+                    <img src="img/GIA2.webp" alt="">
                     <h3>อิฐมอญ GIANT KINGKONG </h3>
                     <p class="price">รุ่น 2 รู ขนาดต่อก้อน (ก x ล) 6 x 14 ซม ความหนาอิฐ 3 ซม.(แพ็ค 100 ก้อน) สีแดง</p>
                      <a href="#" class="btn">173$</a>
                 </div>
 
                 <div class="swiper-slide box">
-                    <img src="GIA3.webp" alt="">
+                    <img src="img/GIA3.webp" alt="">
                     <h3>บล็อกสนามหญ้า DURA  </h3>
                     <p class="price">รุ่น แบบผิวเรียบ ขนาด 25 x 40 x 8 ซม. สีเทา</p>
                      <a href="#" class="btn">31$</a>
                 </div>
               
                 <div class="swiper-slide box">
-                    <img src="GIA4.webp" alt="">
+                    <img src="img/GIA4.webp" alt="">
                     <h3>อิฐมวลเบา THAICON   </h3>
                     <p class="price">รุ่น 7.5 ซม. ขนาด 20 x 60 x 7.5 ซม.</p>
                      <a href="#" class="btn">20$</a>
                 </div>
 
                 <div class="swiper-slide box">
-                    <img src="GIA5.webp" alt="">
+                    <img src="img/GIA5.webp" alt="">
                     <h3>อิฐบล็อกทึบ GIANT KINGKONG  </h3>
                     <p class="price">ขนาด 39 x 19 x 6.5 ซม. สีเทา</p>
                      <a href="#" class="btn">7$/ก้อน</a>
@@ -211,28 +211,28 @@
             <div class="swiper-wrapper">
                   
                 <div class="swiper-slide box">
-                    <img src="mo1.webp" alt="">
+                    <img src="img/mo1.webp" alt="">
                     <h3>TPI</h3>
                     <p class="price">ปูนซีเมนต์ผสม ก่อ-ฉาบ รุ่น 197 ขนาด 50 กก. สีเขียว</p>
                      <a href="#" class="btn">105$</a>
                 </div>
               
                 <div class=" swiper-slide box">
-                    <img src="mo2.webp" alt="">
+                    <img src="img/mo2.webp" alt="">
                     <h3>ปูนอินทรี  </h3>
                     <p class="price">ปูนก่อฉาบ อินทรีซุปเปอร์ นกอินทรี ขนาด 40 กก. สีเขียว</p>
                      <a href="#" class="btn">127$</a>
                 </div>
 
                 <div class="swiper-slide box">
-                    <img src="mo3.webp" alt="">
+                    <img src="img/mo3.webp" alt="">
                     <h3>TPI </h3>
                     <p class="price">ปูนก่อฉาบ เขียวซุปเปอร์ TPI ขนาด 40 กก.</p>
                      <a href="#" class="btn">31$</a>
                 </div>
               
                 <div class="swiper-slide box">
-                    <img src="mo4.webp" alt="">
+                    <img src="img/mo4.webp" alt="">
                     <h3>DURAONE   </h3>
                     <p class="price">ปูนเขียว ก่อ ฉาบ เท DURAONE รุ่น ปูนเทาดูร่าวัน ขนาด 50 กก. สีเขียว</p>
                      <a href="#" class="btn">107$</a>
@@ -248,28 +248,28 @@
             <div class="swiper-wrapper">
                   
                 <div class="swiper-slide box">
-                    <img src="kr1.webp" alt="">
+                    <img src="img/kr1.webp" alt="">
                     <h3>ตราเพชร</h3>
                     <p class="price">กระเบื้องหลังคา ลอนคู่ ตราเพชร ขนาด 50 x 150 x 0.4 ซม. สีเขียวประกายเพชร</p>
                      <a href="#" class="btn">70$</a>
                 </div>
               
                 <div class=" swiper-slide box">
-                    <img src="kr2.jpg" alt="">
+                    <img src="img/kr2.jpg" alt="">
                     <h3>ตราเพชร </h3>
                     <p class="price">กระเบื้องหลังคา ลอนคู่ ตราเพชร ขนาด 50 x 120 x 0.4 ซม. สีแดงประกายเพชร</p>
                      <a href="#" class="btn">56$</a>
                 </div>
 
                 <div class="swiper-slide box">
-                    <img src="kr3.webp" alt="">
+                    <img src="img/kr3.webp" alt="">
                     <h3>ตราเพชร </h3>
                     <p class="price">กระเบื้องหลังคา ตราเพชร รุ่น ลอนคู่ ขนาด 50 x 120 x 0.4 ซม. สีเทาแพลทินัม</p>
                      <a href="#" class="btn">31$</a>
                 </div>
               
                 <div class="swiper-slide box">
-                    <img src="kr4.jpg" alt="">
+                    <img src="img/kr4.jpg" alt="">
                     <h3>ตราเพชร   </h3>
                     <p class="price">กระเบื้องหลังคา ลอนคู่ ตราเพชร รุ่น 111125603 ขนาด 50 x 120 x 0.5 ซม. สีเขียวประกายเพชร</p>
                      <a href="#" class="btn">107$</a>
@@ -284,28 +284,28 @@
             <div class="swiper-wrapper">
                   
                 <div class="swiper-slide box">
-                    <img src="color1.webp" alt="">
+                    <img src="img/color1.webp" alt="">
                     <h3>BEGER</h3>
                     <p class="price">สีน้ำภายนอก ชนิดกึ่งเงา BEGER รุ่น คูล ออลพลัส #4400 ขนาด 5 แกลลอน สีขาว</p>
                      <a href="#" class="btn">2470$</a>
                 </div>
               
                 <div class=" swiper-slide box">
-                    <img src="color2.webp" alt="">
+                    <img src="img/color2.webp" alt="">
                     <h3>TOA  </h3>
                     <p class="price">สีน้ำด้าน ภายนอก TOA รุ่น SHIELD-1 NANO ขนาด 1 แกลลอน สีขาว E100</p>
                      <a href="#" class="btn">2456$</a>
                 </div>
 
                 <div class="swiper-slide box">
-                    <img src="color3.webp" alt="">
+                    <img src="img/color3.webp" alt="">
                     <h3>LONGLIFE COOLMAX</h3>
                     <p class="price">สีน้ำภายนอก ด้าน LONGLIFE COOLMAX ขนาด 5 แกลลอน สีขาว (L1100)</p>
                      <a href="#" class="btn">2431$</a>
                 </div>
               
                 <div class="swiper-slide box">
-                    <img src="color4.webp" alt="">
+                    <img src="img/color4.webp" alt="">
                     <h3>TOA   </h3>
                     <p class="price">สีน้ำกึ่งเงา ภายนอก TOA รุ่น 4 Seasons ขนาด 1 แกลอน สี AG1000 ขาว</p>
                      <a href="#" class="btn">647$</a>
@@ -318,28 +318,28 @@
                 <div class="swiper-wrapper">
                       
                     <div class="swiper-slide box">
-                        <img src="color5.webp" alt="">
+                        <img src="img/color5.webp" alt="">
                         <h3>LONGLIFE COOLMAX</h3>
                         <p class="price">สีน้ำภายใน ด้าน LONGLIFE COOLMAX ขนาด 1 แกลลอน สีขาว (L1100)</p>
                          <a href="#" class="btn">423$</a>
                     </div>
                   
                     <div class=" swiper-slide box">
-                        <img src="color6.webp" alt="">
+                        <img src="img/color6.webp" alt="">
                         <h3>TOA  </h3>
                         <p class="price">สีน้ำด้าน ภายใน TOA รุ่น SHIELD-1 NANO ขนาด 5 แกลลอน สี E100 ขาว</p>
                          <a href="#" class="btn">2280$</a>
                     </div>
     
                     <div class="swiper-slide box">
-                        <img src="color7.webp" alt="">
+                        <img src="img/color7.webp" alt="">
                         <h3>TOA </h3>
                         <p class="price">สีน้ำด้าน ภายใน TOA รุ่น 4 Seasons ขนาด 1 แกลอน สี A1000 ขาว</p>
                          <a href="#" class="btn">438$</a>
                     </div>
                   
                     <div class="swiper-slide box">
-                        <img src="color8.webp" alt="">
+                        <img src="img/color8.webp" alt="">
                         <h3>NATIONAL  </h3>
                         <p class="price">สีน้ำภายใน ด้าน NATIONAL รุ่น 300 ขนาด 1 แกลอน สีขาว</p>
                          <a href="#" class="btn">107$</a>
