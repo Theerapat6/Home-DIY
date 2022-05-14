@@ -6,8 +6,6 @@ document.querySelector('#search').onclick =() =>{
     
 }
 
-let loginF = document.querySelector('.login-F');
-
 window.onscroll =() =>{
     searchF.classList.remove('active');
     loginF.classList.remove('active');

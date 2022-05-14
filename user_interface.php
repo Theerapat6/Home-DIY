@@ -6,7 +6,6 @@
     
     $user_data = check_login($conn);
 
-    $user_name = '';
 ?>
 
 <html>
@@ -34,15 +33,14 @@
   <div class="icon">
       
        <div  id="search"><i class='bx bx-search'></i></div>
-       <div  id="shop"><i class='bx bx-cart'></i></i></i></div>
-       <div  id="login"><i class='bx bxs-user' ></i></div>
+       <div  id="shop"><i class='bx bx-cart'></i></div>
   </div>
-    
-  <form action="" class="search-F">
-      <input type="=search" id="search-box" placeholder="search...">
-      <label for="search-box" class="bx bx-search"></label>
-  </form>
-
+  <div style="background-color: white; padding: 10px; border-radius:15px;">
+        <h3 style="font-size: 20px; color:red;" >Username</h3>
+        <h2><?php echo $user_data['user_id']; ?></h2>
+        <a href="logout.php" style="font-size: 15px;">Logout</a>
+  </div>
+  
 </header> 
 
 <section class="Home" id="Home">

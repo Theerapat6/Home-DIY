@@ -191,6 +191,7 @@ clip-path: polygon(100% 0, 93% 50%,100% 99%, 0% 100%,7% 50%,0% 0%);
     color: var(--black);
     text-transform:none;
 }
+
 .header .login-F p{
     font-size: 1.2rem;
     padding: .5rem 0;
