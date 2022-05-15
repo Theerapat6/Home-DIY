@@ -32,7 +32,6 @@
 
   <div class="icon">
       
-       <div  id="search"><i class='bx bx-search'></i></div>
        <div  id="shop"><i class='bx bx-cart'></i></div>
   </div>
   <div style="background-color: white; padding: 10px; border-radius:15px;">

@@ -34,7 +34,6 @@
   <div class="icon">
       
        <div  id="search"><i class='bx bx-search'></i></div>
-       <div  id="shop"><i class='bx bx-cart'></i></i></i></div>
        <div  id="login"><i class='bx bxs-user' ></i></div>
   </div>
     
