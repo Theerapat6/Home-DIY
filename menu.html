@@ -1,12 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
+    <title>Home diy</title>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="Home.css">
+    <header class="header">
+
+        <a href="#HOME DIY" class="logo"> <i class='bx bx-home' ></i> HOME DIY </a>
 </head>
+
 <body>
+    
+<div>
+    <h1 id="part-total-price" class="banner total-price default ng-scope" ng-if="sumLowestPrice() == 0">
+        DIY Home
+        </h1>        
+</div>
+<div ng-repeat="componentType in selectableComponents" class="ng-scope"> 
+    <div ng-if="componentType != 'home'" class="ng-scope">
+        <div class="banner item-part default home active" ng-if="!selectedComponents[componnentType].id" n
+    </div>
+
+</div>
+       
     
 </body>
 </html>
