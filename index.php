@@ -32,7 +32,6 @@
   </nav>
 
   <div class="icon">
-        <div><i></i></div>
        <div  id="shop"><i class='bx bx-cart'></i></i></i></div>
        <div  id="login"><i class='bx bxs-user' ></i></div>
   </div>
@@ -51,16 +50,14 @@
     <h1 class="heading"> House <span>Style</span></h1>
 
      <div class="box-container">
-        <a id="not_login" href="#">กดกุดิไอสัส</a>
          <div class="box">
-            <img class="img" src="img/house1.jpg " alt="">ปปปปปปปปป
+            <img class="img" src="img/house1.jpg " alt="">
              <h3>เเบบบ้านชั้นเดียว</h3>
-             <button id="not_login" class="btn">Subvadsa</button>
-         </div>
+            <a class="btn" href="#"></a>
+         </div>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
          <div class="box">
             <img class="img" src="img/house2.jpg" alt="">
             <h3>เเบบบ้านสองเดียว</h3>
-            <input type="button" id="not_login" value="กดๆๆๆ">
         </div>
 
         <div class="box">
@@ -380,12 +377,7 @@
 
      <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
-    <script src="js/Home.js">
-        
-        document.getElementById("not_login").onclick = function(){
-            alert("dsadasdasdas");
-        }
-    </script>
+    <script src="js/Home.js"></script>
 </body>
 
 </html>

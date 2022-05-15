@@ -1,6 +1,4 @@
-let searchF = document.querySelector('.search-F');
-
-document.querySelector('#login').onclick =() =>{
+document.getElementById('login').onclick = function(){
     window.location.assign("http://localhost/home-diy-test/login.php");
 }
 
@@ -20,7 +18,7 @@ var swiper = new Swiper(".products-sli", {
     breakpoints: {
       0: {
         slidesPerView: 1,
-       
+      
       },
       768: {
         slidesPerView: 2,
