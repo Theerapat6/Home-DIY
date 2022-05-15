@@ -1,8 +1,45 @@
-<?php 
+<?php
 
     session_start();
     include('config.php');
     include('function.php');
+
+    $msg = '';
+
+    if($_SERVER['REQUEST_METHOD'] == "POST")
+    {
+      $user_id = $_POST['user_id'];
+      $user_email = $_POST['user_email'];
+      $user_pass = $_POST['user_pass'];
+      $user_con = $_POST['user_con'];
+
+      if(!empty($user_id) && !empty($user_email) && !empty($user_pass) && !empty($user_con) && !is_numeric($user_email))
+      {
+        
+        //save to data base
+        $query = "INSERT INTO users (user_id,user_email,user_pass) VALUES ('$user_id','$user_email','$user_pass')";
+        $query2 = "SELECT * FROM users WHERE user_email = '$user_email' OR user_id = '$user_id'";
+
+        $result_check = mysqli_query($conn, $query2);
+        $user_data = mysqli_fetch_assoc($result_check);
+        
+        if(isset($user_data['user_email']) != $user_email)
+        {
+          if($user_pass == $user_con)
+          {
+            mysqli_query($conn, $query);
+            echo "<script>alert('Successfully register! You can')</script>";
+          }else
+          {
+            $msg = 'Password is not equal!';
+          }          
+        }else
+        {
+          echo "<script>alert('Already email or id')</script>";
+        }
+        
+      }
+    }
 
 ?>
 
@@ -26,32 +63,33 @@
         <form method="post">
 
           <div class="txt_field">
-            <input type="text" required>
+            <input type="text" name="user_id">
             <span></span>
             <label>Username</label>
           </div>
 
           <div class="txt_field">
-            <input type="text" required>
+            <input type="text" name="user_email">
             <span></span>
             <label>Email</label>
           </div>
 
           <div class="txt_field">
-            <input type="password" required>
+            <input type="password" name="user_pass">
             <span></span>
             <label>Password</label>
           </div>
 
           <div class="txt_field">
-            <input type="password" required>
+            <input type="password" name="user_con">
             <span></span>
             <label>Confirm password</label>
           </div>
+          <p><?php echo $msg?></p>
           
-          <input type="submit" value="Login">
+          <input type="submit" value="Register">
           <div class="signup_link">
-            <a href="register.php">Signup</a>
+            <a href="login.php">Login now</a>
           </div>
         </form>
       </div>

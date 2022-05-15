@@ -4,6 +4,44 @@
     include('config.php');
     include('function.php');
 
+    $msg = '';
+
+    if($_SERVER['REQUEST_METHOD'] == "POST")
+    {
+      $user_id = $_POST['user_id'];
+      $user_pass = $_POST['user_pass'];
+
+      if(!empty($user_id) && !empty($user_pass))
+      {
+        //read from database
+        $query = "SELECT * FROM users WHERE user_id = '$user_id' OR user_email = '$user_id' LIMIT 1";
+        $result = mysqli_query($conn, $query);
+        
+        if($result)
+        {
+          if(mysqli_num_rows($result) > 0)
+          {
+            $user_data = mysqli_fetch_assoc($result);
+            
+            if($user_data['user_pass'] === $user_pass)
+            {
+              $_SESSION['user_id'] = $user_data['user_id'];
+              echo "<script>alert('Login successfully!')</script>";
+
+              header('Location: user_interface.php');
+              die;
+            }else
+            {
+              echo "<script>alert('Wrong password or ID')</script>";
+            }
+          }else
+          {
+            echo "<script>alert('Wrong password or ID')</script>";
+          }
+        }
+      }
+    }
+
 ?>
 
 <!DOCTYPE html>
@@ -39,7 +77,7 @@
 
           <input type="submit" value="Login">
           <div class="signup_link">
-            <a href="register.php">Signup</a>
+            <a href="register.php">Sign up</a>
           </div>
         </form>
       </div>
