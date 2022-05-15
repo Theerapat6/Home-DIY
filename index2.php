@@ -24,7 +24,7 @@
     </header>
     <section>
         <div class="sec-1">
-            <img src="/image/index_bg.jpg" class="bg-img">
+            <img src="image/index_bg.jpg" class="bg-img">
             <div class="p-text">
                 <h1>Welcome to DIY</h1>
                 <h5>Let's Chat</h5>

@@ -54,7 +54,7 @@
             <img class="img" src="img/house1.jpg " alt="">
              <h3>เเบบบ้านชั้นเดียว</h3>
             <a class="btn" href="#"></a>
-         </div>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+         </div>
          <div class="box">
             <img class="img" src="img/house2.jpg" alt="">
             <h3>เเบบบ้านสองเดียว</h3>
