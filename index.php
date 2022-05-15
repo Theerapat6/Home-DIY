@@ -32,15 +32,12 @@
   </nav>
 
   <div class="icon">
-       
+        <div><i></i></div>
        <div  id="shop"><i class='bx bx-cart'></i></i></i></div>
        <div  id="login"><i class='bx bxs-user' ></i></div>
   </div>
-    
- 
 
 </header> 
-
 
 <section class="Home" id="Home">
 <div class="content">
@@ -51,38 +48,29 @@
 </section>
 
 <section class="Style" id="Style">
-
     <h1 class="heading"> House <span>Style</span></h1>
 
      <div class="box-container">
-
-        <?php 
-        
-            if($_SERVER['REQ'])
-        
-        ?>
+        <a id="not_login" href="#">กดกุดิไอสัส</a>
          <div class="box">
-            <img class="img" src="img/house1.jpg " alt="">
+            <img class="img" src="img/house1.jpg " alt="">ปปปปปปปปป
              <h3>เเบบบ้านชั้นเดียว</h3>
-             <a href="#" class="btn">MORE</a>
+             <button id="not_login" class="btn">Subvadsa</button>
          </div>
-
          <div class="box">
             <img class="img" src="img/house2.jpg" alt="">
             <h3>เเบบบ้านสองเดียว</h3>
-            <a href="#" class="btn">MORE</a>
+            <input type="button" id="not_login" value="กดๆๆๆ">
         </div>
 
         <div class="box">
             <img class="img" src="img/house3.jpg " alt="">
             <h3>เเบบบ้านโมเดิร์น</h3>
-            <a href="#" class="btn">MORE</a>
+            <a href="#" class="btn" id="not_login">MORE</a>
         </div>
      </div>
     </section>
 
-
-    
      <section class="Products" id="products">
     <body>   
         <h1 class="heading">Pro<span>duct</span></h1>
@@ -97,28 +85,28 @@
                     <img src="img/Door1.jpg" alt="">
                     <h3>ประตูไฟเบอร์กลาส ECO-DOOR </h3>
                     <p class="price">ยี่ห้อ ECO-DOOR สีขาว ขนาด 90 x 3.5 x 200 CM 1ชิ้น</p>
-                     <a href="#" class="btn">1500$</a>
+                     <a href="#" class="btn" id="not_login">1500$</a>
                 </div>
               
                 <div class="swiper-slide box">
                     <img src="img/Door2.jpg" alt="">
                     <h3>ประตูโพลีไวนิลลามิเนต KING  </h3>
                     <p class="price">  ยี่ห้อ KING สีดำ,น้ำตาล ขนาด 80 x 3.5 x 20CM 1ชิ้น</p>
-                     <a href="#" class="btn">1500$</a>
+                     <a href="#" class="btn" id="not_login">1500$</a>
                 </div>
 
                 <div class="swiper-slide box">
                     <img src="img/Door3.jpg" alt="">
                     <h3>ประตูไม้เทียม CITY IDYL  </h3>
                     <p class="price">ยี่ห้อ CITY IDYL  สีโอ๊ค ขนาด 80 x 3.5 x 200 CM 1ชิ้น</p>
-                     <a href="#" class="btn">1500$</a>
+                     <a href="#" class="btn" id="not_login">1500$</a>
                 </div>
               
                 <div class="swiper-slide box">
                     <img src="img/Door4.jpg" alt="">
                     <h3>ประตูปิดผิวเมลามีน SAVE  </h3>
                     <p class="price">ยี่ห้อ SAVE  สีเทา ขนาด 80 x 3.5 x 200 CM 1ชิ้น</p>
-                     <a href="#" class="btn">1500$</a>
+                     <a href="#" class="btn" id="not_login">1500$</a>
                 </div>
             </div>
         </div>
@@ -133,28 +121,28 @@
                     <img src="img/tile1.jpg" alt="">
                     <h3>กระเบื้อง STATUARIO ULTRA WHITE </h3>
                     <p class="price">ยี่ห้อ GALAXY สีขาว ขนาด 60 x 60 CM 1แผ่น</p>
-                     <a href="#" class="btn">300$</a>
+                     <a href="#" class="btn" id="not_login">300$</a>
                 </div>
               
                 <div class=" swiper-slide box">
                     <img src="img/tile2.jpg" alt="">
                     <h3>กระเบื้อง EMPRADOR BEIGE </h3>
                     <p class="price">ยี่ห้อ GALAXY สีครีม ขนาด 60 x 60 CM 1แผ่น</p>
-                     <a href="#" class="btn">300$</a>
+                     <a href="#" class="btn" id="not_login">300$</a>
                 </div>
 
                 <div class="swiper-slide box">
                     <img src="img/tile3.jpg" alt="">
                     <h3>กระเบื้อง ROMAN GREY </h3>
                     <p class="price">ยี่ห้อ WCC  สีเทา ขนาด 60 x 60 x 1 CM 1แผ่น</p>
-                     <a href="#" class="btn">300$</a>
+                     <a href="#" class="btn" id="not_login">300$</a>
                 </div>
               
                 <div class="swiper-slide box">
                     <img src="img/tile4.jpg" alt="">
                     <h3>กระเบื้อง BLACK SILVER   </h3>
                     <p class="price">ยี่ห้อ PARISCASA  สีดำ ขนาด 60 x 60 x 1 CM 1แผ่น</p>
-                     <a href="#" class="btn">300$</a>
+                     <a href="#" class="btn" id="not_login">300$</a>
                 </div>
             </div>
 
@@ -170,35 +158,35 @@
                     <img src="img/GIA1.webp" alt="">
                     <h3>อิฐมอญ GIANT KINGKONG </h3>
                     <p class="price">รุ่น ตัดมือ ขนาดต่อก้อน (ก x ล) 6 x 14 ซม. ความหนาอิฐ 3 ซม.(แพ็ก 100 ก้อน) สีแดง</p>
-                     <a href="#" class="btn">129$</a>
+                     <a href="#" class="btn" id="not_login">129$</a>
                 </div>
               
                 <div class=" swiper-slide box">
                     <img src="img/GIA2.webp" alt="">
                     <h3>อิฐมอญ GIANT KINGKONG </h3>
                     <p class="price">รุ่น 2 รู ขนาดต่อก้อน (ก x ล) 6 x 14 ซม ความหนาอิฐ 3 ซม.(แพ็ค 100 ก้อน) สีแดง</p>
-                     <a href="#" class="btn">173$</a>
+                     <a href="#" class="btn" id="not_login">173$</a>
                 </div>
 
                 <div class="swiper-slide box">
                     <img src="img/GIA3.webp" alt="">
                     <h3>บล็อกสนามหญ้า DURA  </h3>
                     <p class="price">รุ่น แบบผิวเรียบ ขนาด 25 x 40 x 8 ซม. สีเทา</p>
-                     <a href="#" class="btn">31$</a>
+                     <a href="#" class="btn" id="not_login">31$</a>
                 </div>
               
                 <div class="swiper-slide box">
                     <img src="img/GIA4.webp" alt="">
                     <h3>อิฐมวลเบา THAICON   </h3>
                     <p class="price">รุ่น 7.5 ซม. ขนาด 20 x 60 x 7.5 ซม.</p>
-                     <a href="#" class="btn">20$</a>
+                     <a href="#" class="btn" id="not_login">20$</a>
                 </div>
 
                 <div class="swiper-slide box">
                     <img src="img/GIA5.webp" alt="">
                     <h3>อิฐบล็อกทึบ GIANT KINGKONG  </h3>
                     <p class="price">ขนาด 39 x 19 x 6.5 ซม. สีเทา</p>
-                     <a href="#" class="btn">7$/ก้อน</a>
+                     <a href="#" class="btn" id="not_login">7$/ก้อน</a>
                 </div>
             </div>
         </div>
@@ -213,28 +201,28 @@
                     <img src="img/mo1.webp" alt="">
                     <h3>TPI</h3>
                     <p class="price">ปูนซีเมนต์ผสม ก่อ-ฉาบ รุ่น 197 ขนาด 50 กก. สีเขียว</p>
-                     <a href="#" class="btn">105$</a>
+                     <a href="#" class="btn" id="not_login">105$</a>
                 </div>
               
                 <div class=" swiper-slide box">
                     <img src="img/mo2.webp" alt="">
                     <h3>ปูนอินทรี  </h3>
                     <p class="price">ปูนก่อฉาบ อินทรีซุปเปอร์ นกอินทรี ขนาด 40 กก. สีเขียว</p>
-                     <a href="#" class="btn">127$</a>
+                     <a href="#" class="btn" id="not_login">127$</a>
                 </div>
 
                 <div class="swiper-slide box">
                     <img src="img/mo3.webp" alt="">
                     <h3>TPI </h3>
                     <p class="price">ปูนก่อฉาบ เขียวซุปเปอร์ TPI ขนาด 40 กก.</p>
-                     <a href="#" class="btn">31$</a>
+                     <a href="#" class="btn" id="not_login">31$</a>
                 </div>
               
                 <div class="swiper-slide box">
                     <img src="img/mo4.webp" alt="">
                     <h3>DURAONE   </h3>
                     <p class="price">ปูนเขียว ก่อ ฉาบ เท DURAONE รุ่น ปูนเทาดูร่าวัน ขนาด 50 กก. สีเขียว</p>
-                     <a href="#" class="btn">107$</a>
+                     <a href="#" class="btn" id="not_login">107$</a>
                 </div>
  
             </div>
@@ -250,28 +238,28 @@
                     <img src="img/kr1.webp" alt="">
                     <h3>ตราเพชร</h3>
                     <p class="price">กระเบื้องหลังคา ลอนคู่ ตราเพชร ขนาด 50 x 150 x 0.4 ซม. สีเขียวประกายเพชร</p>
-                     <a href="#" class="btn">70$</a>
+                     <a href="#" class="btn" id="not_login">70$</a>
                 </div>
               
                 <div class=" swiper-slide box">
                     <img src="img/kr2.jpg" alt="">
                     <h3>ตราเพชร </h3>
                     <p class="price">กระเบื้องหลังคา ลอนคู่ ตราเพชร ขนาด 50 x 120 x 0.4 ซม. สีแดงประกายเพชร</p>
-                     <a href="#" class="btn">56$</a>
+                     <a href="#" class="btn" id="not_login">56$</a>
                 </div>
 
                 <div class="swiper-slide box">
                     <img src="img/kr3.webp" alt="">
                     <h3>ตราเพชร </h3>
                     <p class="price">กระเบื้องหลังคา ตราเพชร รุ่น ลอนคู่ ขนาด 50 x 120 x 0.4 ซม. สีเทาแพลทินัม</p>
-                     <a href="#" class="btn">31$</a>
+                     <a href="#" class="btn" id="not_login">31$</a>
                 </div>
               
                 <div class="swiper-slide box">
                     <img src="img/kr4.jpg" alt="">
                     <h3>ตราเพชร   </h3>
                     <p class="price">กระเบื้องหลังคา ลอนคู่ ตราเพชร รุ่น 111125603 ขนาด 50 x 120 x 0.5 ซม. สีเขียวประกายเพชร</p>
-                     <a href="#" class="btn">107$</a>
+                     <a href="#" class="btn" id="not_login">107$</a>
                 </div>
                 
             </div> 
@@ -286,28 +274,28 @@
                     <img src="img/color1.webp" alt="">
                     <h3>BEGER</h3>
                     <p class="price">สีน้ำภายนอก ชนิดกึ่งเงา BEGER รุ่น คูล ออลพลัส #4400 ขนาด 5 แกลลอน สีขาว</p>
-                     <a href="#" class="btn">2470$</a>
+                     <a href="#" class="btn" id="not_login">2470$</a>
                 </div>
               
                 <div class=" swiper-slide box">
                     <img src="img/color2.webp" alt="">
                     <h3>TOA  </h3>
                     <p class="price">สีน้ำด้าน ภายนอก TOA รุ่น SHIELD-1 NANO ขนาด 1 แกลลอน สีขาว E100</p>
-                     <a href="#" class="btn">2456$</a>
+                     <a href="#" class="btn" id="not_login">2456$</a>
                 </div>
 
                 <div class="swiper-slide box">
                     <img src="img/color3.webp" alt="">
                     <h3>LONGLIFE COOLMAX</h3>
                     <p class="price">สีน้ำภายนอก ด้าน LONGLIFE COOLMAX ขนาด 5 แกลลอน สีขาว (L1100)</p>
-                     <a href="#" class="btn">2431$</a>
+                     <a href="#" class="btn" id="not_login">2431$</a>
                 </div>
               
                 <div class="swiper-slide box">
                     <img src="img/color4.webp" alt="">
                     <h3>TOA   </h3>
                     <p class="price">สีน้ำกึ่งเงา ภายนอก TOA รุ่น 4 Seasons ขนาด 1 แกลอน สี AG1000 ขาว</p>
-                     <a href="#" class="btn">647$</a>
+                     <a href="#" class="btn" id="not_login">647$</a>
                 </div>
                 
             </div>
@@ -320,28 +308,28 @@
                         <img src="img/color5.webp" alt="">
                         <h3>LONGLIFE COOLMAX</h3>
                         <p class="price">สีน้ำภายใน ด้าน LONGLIFE COOLMAX ขนาด 1 แกลลอน สีขาว (L1100)</p>
-                         <a href="#" class="btn">423$</a>
+                         <a href="#" class="btn" id="not_login">423$</a>
                     </div>
                   
                     <div class=" swiper-slide box">
                         <img src="img/color6.webp" alt="">
-                        <h3>TOA  </h3>
+                        <h3>TOA</h3>
                         <p class="price">สีน้ำด้าน ภายใน TOA รุ่น SHIELD-1 NANO ขนาด 5 แกลลอน สี E100 ขาว</p>
-                         <a href="#" class="btn">2280$</a>
+                         <a href="#" class="btn" id="not_login">2280$</a>
                     </div>
     
                     <div class="swiper-slide box">
                         <img src="img/color7.webp" alt="">
-                        <h3>TOA </h3>
+                        <h3>TOA</h3>
                         <p class="price">สีน้ำด้าน ภายใน TOA รุ่น 4 Seasons ขนาด 1 แกลอน สี A1000 ขาว</p>
-                         <a href="#" class="btn">438$</a>
+                         <a href="#" class="btn" id="not_login">438$</a>
                     </div>
                   
                     <div class="swiper-slide box">
                         <img src="img/color8.webp" alt="">
-                        <h3>NATIONAL  </h3>
+                        <h3>NATIONAL</h3>
                         <p class="price">สีน้ำภายใน ด้าน NATIONAL รุ่น 300 ขนาด 1 แกลอน สีขาว</p>
-                         <a href="#" class="btn">107$</a>
+                         <a href="#" class="btn" id="not_login">107$</a>
                     </div>
      
                 </div>
@@ -353,9 +341,6 @@
         
      </section>
 
-
-
-
      <section class="footer">
 
         <div class="box-container">
@@ -366,10 +351,10 @@
                 <div class="share">
                     <a href="#" class='bx bxl-facebook-circle'></a>
                     <a href="#" class='bx bxl-instagram-alt'></a>
-                    
+        
                 </div>
             </div>
-    
+
             <div class="box">
                 <h3>contact info</h3>
                 <a href="#" class="links"> <i class='bx bxs-phone-call' ></i> +123-456-7890 </a>
@@ -395,7 +380,12 @@
 
      <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
-    <script src="js/Home.js"></script>
+    <script src="js/Home.js">
+        
+        document.getElementById("not_login").onclick = function(){
+            alert("dsadasdasdas");
+        }
+    </script>
 </body>
 
 </html>
